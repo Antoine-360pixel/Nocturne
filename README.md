@@ -18,6 +18,11 @@ Nocturne actually contains the following dependencies :
 3. Minify Css
 
 ##TO DO
+Create Welcome styles
+Create content of index.html
+Add real dummy img (favicon)
+Add starting font
+
 Plugins to add :
 
 1. Sourcemaps
@@ -26,4 +31,3 @@ Tasks to add :
 
 1. Building task
 
-Create Welcome styles
