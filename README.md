@@ -19,15 +19,20 @@ Nocturne actually contains the following dependencies :
 
 ##TO DO
 Create Welcome styles
+
 Create content of index.html
+
 Add real dummy img (favicon)
+
 Add starting font
 
 Plugins to add :
 
 1. Sourcemaps
+2. .....
 
 Tasks to add :
 
 1. Building task
+2. .....
 
