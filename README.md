@@ -25,3 +25,5 @@ Plugins to add :
 Tasks to add :
 
 1. Building task
+
+Create Welcome styles
