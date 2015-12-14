@@ -6,9 +6,8 @@ Nocturne is a light starter pack for your projects.
 Open a terminal window en locate your project directory then :
 
 1. Clone the repository with ``` git clone <repository url>  ```
-2. Run npm with ``` npm install  ```
-3. Run bower with ``` bower install  ```
-4. Run your project with ``` gulp serve  ```
+2. Run npm and bower with ``` npm i && bower i  ```
+3. Run your project with ``` gulp serve  ```
 
 ##Content
 Nocturne actually contains the following dependencies :
