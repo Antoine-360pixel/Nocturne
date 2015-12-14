@@ -3,17 +3,26 @@
   "version": "1.0.0",
   "description": "Initialize your project",
   "main": "",
+  "engines": {
+    "node": ">=0.10.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Emmanuel Franc",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.10.0",
+    "autoprefixer": "^6.1.2",
+    "browser-sync": "^2.9.12",
     "gulp": "^3.9.0",
-    "gulp-autoprefixer": "^3.1.0",
     "gulp-load-plugins": "^1.1.0",
     "gulp-minify-css": "^1.2.2",
-    "gulp-sass": "^2.1.0"
+    "gulp-postcss": "^6.0.1",
+    "gulp-sass": "^2.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "postcss-assets": "^3.0.3",
+    "require-dir": "^0.3.0",
+    "vinyl-paths": "^2.1.0",
+    "wiredep": "^2.2.2"
   }
 }
