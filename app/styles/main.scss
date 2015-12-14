@@ -4,3 +4,12 @@ body {
     color: red;
     padding: 1rem;
   }
+
+// exemple to use post css assets
+$my_img: 'exemple.png';
+
+.post-css {
+  width: width($my_img); 
+  width: height($my_img); 
+  background: resolve($my_img) no-repeat;
+}

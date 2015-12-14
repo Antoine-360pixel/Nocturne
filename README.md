@@ -21,17 +21,23 @@ Create Welcome styles
 
 Create content of index.html
 
-Add real dummy img (favicon)
-
 Add starting font
 
-Plugins to add :
+Done
 
-1. Sourcemaps
-2. .....
+- organize folders to prevent build
+- config.json for gulp
+- split gulp tasks
+- bower
 
-Tasks to add :
+- serve task
+-- sourcemaps
+-- autoprefixer
+-- post css asset to load path scss images (exmeple in the main.scss)
 
-1. Building task
-2. .....
-
+- build task
+-- minifiy
+--- code
+--- imgs
+--- js
+--- html
