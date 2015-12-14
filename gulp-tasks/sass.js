@@ -6,7 +6,7 @@ var gulp = require('gulp'),
     postcss = require('gulp-postcss'),
     stream = require('browser-sync').stream;
 
-var config = require('./config').projectPaths;
+var config = require('./config');
 
 function handleError(err) {
   console.log(err.toString());

@@ -4,15 +4,15 @@ var gulp = require('gulp'),
     browserSync = require('browser-sync'),
     reload = browserSync.reload;
 
-var config = require('./config').projectPaths;
+var config = require('./config.json');
 
 gulp.task('serve', ['sass', 'wiredep'], function() {
   browserSync({
     notify: false,
-    port: 9004,
+    port: config.port,
     open: false,
     server: {
-      baseDir: [ config.src]
+      baseDir: [ config.src ]
     }
   });
 

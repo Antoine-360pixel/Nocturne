@@ -2,7 +2,7 @@
 
 var gulp = require('gulp');
 
-var config = require('./config').projectPaths;
+var config = require('./config');
 
 gulp.task('wiredep', function () {
   var wiredep = require('wiredep').stream;

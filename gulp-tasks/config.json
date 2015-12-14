@@ -1,0 +1,6 @@
+{
+  "src": "app/",
+  "dist": "dist/",
+  "img": "images/",
+  "port": 9004
+}
