@@ -1,11 +1,20 @@
+// import from bower, look at the sass gulp-tasks
+@import "media-queries";
+
 body {
-    transform: translateY(10%);
-    background: black;
-    color: red;
-    padding: 1rem;
+  transform: translateY(10%);
+  background: black;
+  color: red;
+  padding: 1rem;
+
+  @include max-screen(1400px) {
+    color: black;
+    background-color: red;
   }
+}
 
 // exemple to use post css assets
+/*
 $my_img: 'exemple.png';
 
 .post-css {
@@ -13,3 +22,4 @@ $my_img: 'exemple.png';
   width: height($my_img); 
   background: resolve($my_img) no-repeat;
 }
+*/

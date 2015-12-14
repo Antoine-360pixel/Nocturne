@@ -19,7 +19,7 @@ gulp.task('sass', function() {
     .pipe(sass({
       outputStyle: 'nested',
       precision: 10,
-      includePaths: []
+      includePaths: [config.src + 'bower_components/sass-mediaqueries']
     }))
     .on('error', handleError)
     .pipe(postcss([
