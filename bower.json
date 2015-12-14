@@ -1,0 +1,25 @@
+{
+  "name": "Nocturne",
+  "description": "Initialize your project",
+  "main": "",
+  "authors": [
+    "Emmanuel Franc",
+    "Antoine Vallée"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/emmanuel-franc/Nocturne",
+  "moduleType": [
+    "es6",
+    "globals"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
